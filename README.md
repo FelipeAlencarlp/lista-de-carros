@@ -14,7 +14,7 @@ SE FOR UTILIZAR O PROJETO NO VSCODE CERIFIQUE-SE DE TER A SEGUINTE EXTENSÃO:
     PYTHON - INTELLISENSE (o VSCode precisa dessa extensão para reconhecer arquivos em .py)
 
 # Para iniciar o projeto basta começar criando a pasta .venv com o seguinte comando:
-    python -m venv venv
+    python3 -m venv venv
 
 - Com as pasta criada basta acessá-la com o seguinte comando:
     source venv/bin/activate
