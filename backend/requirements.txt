@@ -11,3 +11,5 @@ python-jose==3.3.0
 python-multipart==0.0.6
 python-decouple==3.8
 passlib~=1.7.4
+requests==2.31.0
+Pillow==10.1.0

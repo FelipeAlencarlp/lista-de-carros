@@ -1,7 +1,6 @@
 from passlib.context import CryptContext
 from jose import jwt
 from fastapi.security import OAuth2PasswordBearer
-import jwt
 from requests import Session
 from datetime import datetime, timedelta
 
