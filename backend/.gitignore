@@ -1,0 +1,6 @@
+.env
+.venv
+server.py
+pyproject.toml
+__pycache__/
+carros.db

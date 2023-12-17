@@ -1,0 +1,13 @@
+bson==0.5.10
+fastapi==0.104.1
+uvicorn~=0.24.0.post1
+SQLAlchemy==2.0.23
+pydantic~=2.5.2
+pydantic-extra-types==2.2.0
+pydantic-settings==2.1.0
+pydantic_core==2.14.5
+peewee~=3.17.0
+python-jose==3.3.0
+python-multipart==0.0.6
+python-decouple==3.8
+passlib~=1.7.4
