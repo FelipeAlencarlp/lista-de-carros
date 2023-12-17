@@ -37,7 +37,7 @@ O Banco de Dados utilizado no projeto foi o SQLite, quando iniciar o projeto ele
 
 1 - Para acessar o banco de dados, é possível através do próprio terminal:
 
-# Windos:
+# Windows:
 – No seu teclado, pressione a tecla Windows + R para abrir a caixa de diálogo Executar.
 – Digite “cmd” e pressione Enter para abrir o Prompt de Comando.
 – no terminal navegue até a pasta que está o projeto utilizando o comando "cd /SeuDiretórioOndeEstaOprojeto/backend" e digite sqlite3;
