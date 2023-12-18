@@ -14,7 +14,7 @@ SE FOR UTILIZAR O PROJETO NO VSCODE CERIFIQUE-SE DE TER A SEGUINTE EXTENSÃO:
     PYTHON - INTELLISENSE (o VSCode precisa dessa extensão para reconhecer arquivos em .py)
 
 # Para iniciar o projeto basta começar criando a pasta .venv com o seguinte comando:
-    python -m venv venv
+    python3 -m venv venv
 
 - Com as pasta criada basta acessá-la com o seguinte comando:
     source venv/bin/activate
@@ -37,7 +37,7 @@ O Banco de Dados utilizado no projeto foi o SQLite, quando iniciar o projeto ele
 
 1 - Para acessar o banco de dados, é possível através do próprio terminal:
 
-# Windos:
+# Windows:
 – No seu teclado, pressione a tecla Windows + R para abrir a caixa de diálogo Executar.
 – Digite “cmd” e pressione Enter para abrir o Prompt de Comando.
 – no terminal navegue até a pasta que está o projeto utilizando o comando "cd /SeuDiretórioOndeEstaOprojeto/backend" e digite sqlite3;
