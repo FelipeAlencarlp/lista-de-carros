@@ -30,6 +30,7 @@ export default function Register() {
           localStorage.setItem('token', responseLogin.data.token);
           history('/login');
         }
+      return history('/login');
       });
     } catch (err) {
       alert('Erro no cadastro, tente novamente.');

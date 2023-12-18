@@ -13,7 +13,19 @@ ANTES DE EXECUTAR QUALQUER COMANDO ABAIXO, CERTIFIQUE-SE DE TER EM SUA MÁQUINA 
 SE FOR UTILIZAR O PROJETO NO VSCODE CERIFIQUE-SE DE TER A SEGUINTE EXTENSÃO:
     PYTHON - INTELLISENSE (o VSCode precisa dessa extensão para reconhecer arquivos em .py)
 
-# Para iniciar o projeto basta começar criando a pasta .venv com o seguinte comando:
+# Para iniciar o projeto no backend, basta seguir os passos:
+1 - Navegue até a pasta do projeto, é possível através do próprio terminal:
+
+# Windows:
+– No seu teclado, pressione a tecla Windows + R para abrir a caixa de diálogo Executar.
+– Digite “cmd” e pressione Enter para abrir o Prompt de Comando.
+– no terminal navegue até a pasta que está o projeto utilizando o comando "cd /SeuDiretórioOndeEstaOprojeto/backend"
+
+# Linux:
+– No seu teclado, pressione as teclas CTRL + ALT + T para abrir um novo terminal
+– no terminal navegue até a pasta que está o projeto utilizando o comando "cd /SeuDiretórioOndeEstaOprojeto/backend"
+
+2 - criar a pasta .venv com o seguinte comando dentro da pasta /backend:
     python3 -m venv venv
 
 - Com as pasta criada basta acessá-la com o seguinte comando:
@@ -33,7 +45,11 @@ SE FOR UTILIZAR O PROJETO NO VSCODE CERIFIQUE-SE DE TER A SEGUINTE EXTENSÃO:
 
 # OBS: 
 
-O Banco de Dados utilizado no projeto foi o SQLite, quando iniciar o projeto ele vai criar um banco de dados automático na sua máquina chamdo carros.db.
+O Banco de Dados utilizado no projeto foi o SQLite, quando iniciar o projeto ele vai criar um banco de dados automático na sua máquina chamdo carros.db e junto com a criação do banco de dados um usuário ADMIN.
+
+Credênciais do Admin:
+email: "admin@carros.com"
+password: "secret123"
 
 1 - Para acessar o banco de dados, é possível através do próprio terminal:
 

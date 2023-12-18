@@ -93,8 +93,8 @@ export default function Painel() {
                 }
             });
     
-            if (res.data.status) {
-                setCarrosList([...carrosList, res.data]);
+            if (res.data) {
+                setCarrosList([...carrosList, res.data.message]);
                 handleClose();
             }
         } catch (err) {
@@ -135,7 +135,7 @@ export default function Painel() {
                 }
             });
     
-            if (res.data.status) {
+            if (res.data) {
                 handleClose();
             }
         } catch (err) {
